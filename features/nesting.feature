@@ -1,8 +1,12 @@
 Feature: Nested tags
 
-  A Mnml document is defined as a tree of tags. A tag may have any number of child tags, except when the tag has a heredoc (see heredoc feature for more information).
+  A Mnml document is defined as a tree of tags. A tag may have any number of
+  child tags, except when the tag has a heredoc (see heredoc feature for more
+  information).
 
-  Nesting a tag in another one requires that the tags have an indentation level that is deeper than the parent tag. All child tags should have identical indentation.
+  Nesting a tag in another one requires that the tags have an indentation level
+  that is deeper than the parent tag. All child tags should have identical
+  indentation.
 
   Scenario: Nesting tags
     Given a file named "test.mnml" with:
